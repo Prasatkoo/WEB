@@ -1,0 +1,35 @@
+body {
+    background-image: url("ramox2.jpg");
+    text-align: center;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkred;
+    overflow: hidden;
+    box-shadow:  4px 7px 9px black;
+
+}
+.navigation a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navigation a:hover {
+    background-color: black;
+}
+.navigation a:active {
+    background-color: black;
+}
+iframe {
+    margin: 3rem;
+    width: 250px;
+    height: 250px;
+
+}
+.contact {
+   font-family: Arial;
+}

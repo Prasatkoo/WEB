@@ -1,21 +1,45 @@
 body {
-  text-align: center;
-    margin: 250px;
-    padding: 50px;
     background-image: url("ramox2.jpg");
 
 
 }
-.navigation div {
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkred;
+    overflow: hidden;
+    box-shadow:  4px 7px 9px black;
+}
+.navigation a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navigation a:hover {
+    background-color: black;
+}
+.navigation a:active {
+    background-color: black;
+}
+
+.login div {
     display: inline-block;
     background-color: white;
     font-family: fantasy;
+
 }
 form {
-    display: inline-block;
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100%;
+    margin: auto;
+    margin-top: 15rem;
     background-color: white;
-    text-align: left;
     box-shadow: 4px 7px 9px black;
     height: 148px;
     width: 248px;
