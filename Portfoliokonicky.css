@@ -1,0 +1,60 @@
+body{
+    background-image: url("EditedBack.jpg");
+    text-align: center;
+    background-repeat: no-repeat;
+
+}
+.navigation {
+    font-family: Consolas;
+    display: block;
+    min-height: 97vh;
+    background-color: black;
+    color: aliceblue;
+    width: 197px;
+    position: absolute;
+
+}
+.navigation a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;}
+.navigation a:hover {
+    background-color: palevioletred;
+}
+.Nadpis{
+    font-family: Arial;
+    color: white;
+    margin-top: 1rem;
+    position: absolute;
+    margin-left: 29rem;
+}
+
+.txt {
+    font-family: Arial;
+   color: white;
+    margin-top: 5rem;
+    position: absolute;
+    margin-left: 29rem;
+
+}
+.txt2 {
+    font-family: Arial;
+    text-align: center;
+    color: white;
+    margin-top: 15rem;
+    position: absolute;
+    margin-left: 29rem;
+
+}
+.txt3 {
+    font-family: Arial;
+    text-align: center;
+    color: white;
+    margin-top: 25rem;
+    position: absolute;
+    margin-left: 29rem;
+
+}
