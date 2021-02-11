@@ -1,0 +1,39 @@
+@media screen and (min-width: 600px) {
+    .nav {
+        display: flex;
+        flex-direction: row;
+    }
+    .nav2{
+        display: none;
+    }
+
+}
+div {
+    display: flex;
+    flex-direction: column;
+
+}
+img{
+    display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+img{
+    display: block;
+}
+.nav{
+ display: none;
+}
+.nav2 {
+    display: none;
+}
+    .obra:hover + .nav2{
+
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+}
+
