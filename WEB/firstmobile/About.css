@@ -1,0 +1,70 @@
+body {
+    margin: 0 auto;
+    background-color: #ebebeb;
+}
+
+
+.Headnavigation {
+    height: 50px;
+    background-color: gray;
+    width: 100%;
+    box-shadow: 3px 6px 9px black;
+}
+
+.burger {
+    font-size: 2rem;
+    width: 2%;
+    height: 100%;
+}
+
+.falldown {
+    display: none;
+    background-color: gray;
+    width: 7rem;
+
+
+}
+
+.burger:hover .falldown {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+
+}
+
+
+.Header {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.Headertext {
+    font-size: 1.5rem;
+}
+
+
+.footercontainer {
+    margin-top: 15.5rem;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    font-size: 2rem;
+}
+
+
+
+img {
+    color: black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: lightslategrey;
+}
